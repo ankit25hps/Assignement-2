@@ -1,0 +1,16 @@
+[{"id" :1,
+ "imageName":"Birds.jpeg",
+ "tag": "Birds"},
+
+  {"id" :2, 
+  "imageName":"Pizza.jpeg",
+  "tag": "Food"},
+
+  {"id" :3, 
+  "imageName":"Places.jpeg",
+  "tag": "Places"},
+  {"id" :4, 
+  "imageName":"Tiger.jpeg",
+  "tag":" Wonders"} 
+
+]
