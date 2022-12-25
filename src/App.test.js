@@ -28,3 +28,8 @@ test("test 3",()=>{
 //  const AppValue=screen.getByPlaceholderText("Search...")
 // expect(AppValue).toBeInTheDocument();
 // })
+test("test 4", async () => {
+    render(<App/>);
+    const Tagbutton = await screen.findAllByRole("button");
+    expect(Tagbutton).toHaveLength(4);
+  });
